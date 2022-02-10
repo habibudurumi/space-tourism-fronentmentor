@@ -75,8 +75,8 @@ const crew = () => {
           })}
         </div>
       </div>
-      <div className='md:flex md:justify-center lg:absolute bottom-0 right-36 w-fit object-contain h-4/5 sm:hidden'>
-        <Image src={images.webp} height={300} width={460} alt={name} />
+      <div className='md:flex md:mx-auto md:mt-8 lg:mt-0 lg:absolute bottom-0 right-48 w-fit object-contain h-4/5 sm:hidden'>
+        <Image src={images.webp} height={400} width={370} alt={name} />
       </div>
     </div>
   );
